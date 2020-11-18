@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    /* position: fixed; */
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.container  {
+    width: 80%;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__items {
+    display: flex;
+}
+.logo-link {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-decoration: none;
+    color: #fff;
+}
+.menu__item {
+    list-style: none;
+    margin-right: 40px;
+}
+.menu__item-link {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+}
+.Liana__main {
+    display: flex;
+    justify-content: center;
+}     
+.container-Liana__main {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.content-Liana__main{
+    margin-top: 100px;
+}
+.content-Liana__main h2,
+.content-Liana__main h4,
+.content-Liana__main p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.content-Liana__main h2 {
+font-size: 36px;
+line-height: 47px;
+color: #333333;
+}
+.content-Liana__main h4 {
+font-size: 18px;
+line-height: 24px;
+color: #000;
+}
+.content-Liana__main p {
+font-size: 18px;
+line-height: 24px;
+color: #000;
+}   
+.container-Liana__images {
+    margin-top: 75px;
+    
+}
+.content-Liana__main {
+    /* margin-right: 100px; */!!!!!!!!!!!!
+}
+/* .flo_up {
+    margin-right: 36px;
+} */
+.flo_up,
+.overlay,
+.pix_up,
+.omar,
+.pix_down,
+.flo_down {
+    max-width: 100%;
+}
+/* .images-Liana__main {
+    position: relative;
+}
+.omar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+.pix_down {
+    margin-right: 36px;
+}
+.omar {
+    margin-top: 36px;
+    margin-bottom: 36px;    
+    
+}
+.Port {
+    border-bottom: 5px solid #fff;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.486); */
+    transition: 2s;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.up_img:hover .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    transition: 2s;
+    
+}
+.up_img {
+    position: relative;
+}
