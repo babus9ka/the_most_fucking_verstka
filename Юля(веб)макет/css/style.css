@@ -3,17 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Roboto Slab';
+}
+a {
+    text-decoration: none;
+}
 .header {
     width: 100%;
-    /* position: fixed; */
     background-color: #333333;
-    display: flex;
-    justify-content: center;
     padding: 5px;
 }
 
 .container  {
-    width: 80%;
+    max-width: 80%;
+    margin:0 auto;
 }
 .menu {
     display: flex;
@@ -22,15 +26,11 @@
 }
 .menu__items {
     display: flex;
-    
 }
 .logo-link {
-    font-family: 'Roboto Slab';
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 47px;
-    text-decoration: none;
     color: #fff;
 }
 .menu__item {
@@ -39,11 +39,9 @@
 }
 .menu__item-link {
     font-family: 'Roboto Slab';
-    font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 32px;
-    text-decoration: none;
     color: #fff;
     padding: 3px;
 }
@@ -76,8 +74,3 @@ font-size: 18px;
 line-height: 24px;
 color: #000;
 }
-.content-Liana__main p {
-font-size: 18px;
-line-height: 24px;
-color: #000;
-}   
