@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 150px;
+}
+.container  {
+    width: 80%;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__items {
+    display: flex;
+}
+.logo-link {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-decoration: none;
+    color: #fff;
+}
+.menu__item {
+    list-style: none;
+    margin-right: 40px;
+}
+.menu__item-link {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+}
+.Contact {
+    border-bottom: 5px solid #fff;
+}
+.phone {
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+margin-top: 0px;
+}
+.ashki {
+    display: inline-flex;
+    list-style: none;
+    margin-top: 10px;
+}
+.ashki-link {
+    text-decoration: none;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #D81919;
+}
+.inst:after {
+    content: "/";
+    margin-left: 15px;
+}
+.fb:after {
+    content: "/";
+    margin-left: 15px;
+}
+.fb:before {
+    content: "/";
+    margin-right: 15px;    
+}
+.tw:before {
+    content: "/";
+    margin-right: 15px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+input {
+
+    margin: 0px 0px 20px 0px;
+    outline: none;
+}
+.container-Liana__main1 {
+    display: flex;
+   justify-content:space-evenly; 
+}
+.Name, 
+.E-mail {
+    padding: 10px 350px 10px 15px;
+}
+.Message {
+    padding: 10px 350px 70px 15px;
+}
+.accept{
+    padding: 10px 50px;
+    background-color: #333;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color:white;
+    text-decoration: none;
+    display: flex;
+    margin-left: auto;
+}
+.accept:hover,
+.accept:visited {
+    color:white;
+}
